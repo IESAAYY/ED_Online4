@@ -11,7 +11,7 @@ public class Notas {
 		System.out.print("Introduzca una nota: ");
 		n = reader.nextInt();
 
-		calificacion = extracted(n);
+		calificacion = cali(n);
 
 		System.out.println(calificacion);
 		reader.close();
@@ -21,7 +21,7 @@ public class Notas {
 	 * @param n
 	 * @return
 	 */
-	public static String extracted(int n) {
+	public static String cali(int n) {
 		String calificacion;
 		if (n >= 0 && n < 5) {
 			calificacion = "Suspenso";
