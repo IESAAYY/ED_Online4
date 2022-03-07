@@ -1,7 +1,10 @@
 package notas;
 
 import java.util.Scanner;
-
+/**
+ * @author Yulei
+ * @version 1.0
+ */
 public class Notas {
 
 	public static void main(String[] args) {
@@ -19,7 +22,7 @@ public class Notas {
 
 	/**
 	 * @param n
-	 * @return
+	 * @return 
 	 * @deprecated Use {@link Califica#califica(int)} instead
 	 */
 	public static String cali(int n) {

@@ -1,10 +1,13 @@
 package notas;
 
+/**
+ * Clase donde contiene método para devolver una calificación según la nota introducida por el usuario
+ */
 public class Califica {
 
 	/**
-	 * @param num_nota
-	 * @return
+	 * @param num_nota Entero que representa la nota
+	 * @return calificacion Calificación obtenida según el parámetro
 	 */
 	public static String califica(int num_nota) {
 		String calificacion;
